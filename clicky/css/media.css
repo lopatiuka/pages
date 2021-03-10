@@ -1,0 +1,60 @@
+@media screen and (max-width:1600px)
+{
+.unrestricted-rightbar-inner {
+    padding: 70px 0 20px 40px;
+}
+}
+@media screen and (max-width:1365px)
+{
+.media-rightbar {
+    width: 70%;
+    float: right;
+    overflow: hidden;
+}
+}
+
+@media screen and (max-width:1170px)
+{
+.auto-container {
+    width: 90%;
+}
+.earing-inner li {
+    width: 32.5%;
+}
+.unrestricted-rightbar-inner {
+    padding: 40px 0 31px 40px;
+}
+.media-rightbar li {
+    width: 32.3%;
+}
+.media-rightbar li:last-child {
+    margin-right: 0;
+    right: 0;
+}
+}
+@media screen and (max-width:992px)
+{
+}
+@media screen and (max-width:768px)
+{
+}
+@media screen and (max-width:767px)
+{
+
+}
+@media screen and (max-width:680px)
+{
+}
+
+@media screen and (max-width:679px)
+{
+}
+@media screen and (max-width:480px)
+{
+
+}
+@media screen and (max-width:479px)
+{
+
+
+}

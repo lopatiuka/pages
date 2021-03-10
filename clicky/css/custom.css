@@ -1,0 +1,287 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header-top{
+	border-bottom: 1px solid rgba(255,255,255,.1);
+    padding: 20px 0 20px;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    background: rgb(3,22,82,.7);
+    width: 100%;
+}
+.header-row{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-top .media-button{
+	margin: 0;
+}
+ul.listCheck{
+	margin: 0;
+	padding: 0;
+}
+ul.listCheck li{
+	font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0 5px;
+    background: url(../images/iconCheck.png) no-repeat left 10px;
+    list-style: none;
+    padding: 9px 0 5px 35px;
+}
+
+.title-form{
+	background: rgba(0,0,0,.85);
+	padding: 25px 15px;
+	text-align: center;
+}
+.title-form h3{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 35px;
+	margin: 0;
+}
+.form-outer{
+	padding: 0 0 20px;
+}
+.form-outer form{
+	padding: 20px 20px 0;
+}
+.form-outer form .namefields{
+	width: 100%;
+	padding: 12px 20px 12px;
+	border-radius: 6px;
+	border: 0;
+	font-family: 'Oswald';
+	color: #212326;
+	background-color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.form-content{
+	margin: 6px 0 0;
+}
+.form-content p a{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.steps-row{
+	display: flex;
+	margin: 30px 0 0;
+	float: left;
+    width: 100%;
+    position: relative;
+}
+.steps-row::before{
+	content: '';
+	width: 71%;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 1;
+}
+.step-box{
+	flex: 1;
+	margin-right: 30px;
+}
+.step-box:last-child{
+	margin: 0;
+}
+.step-box_row{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.step-number{
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: #6882a1;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+}
+.step-number h4{
+	font-size: 22px;
+	line-height: 22px;
+	color: #fff;
+	margin: 0;
+	font-weight: 700;
+}
+.step-text{
+	margin: 15px 0 0;
+}
+.step-text p{
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	margin: 0;
+
+}
+
+.join-register-box__img{
+	min-height: 123px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.media-rightbar li{
+	min-height:663px;
+}
+
+.media-leftbar{
+	padding: 50px 0 0;
+}
+
+.made-fortune .media-rightbar li{
+	min-height: auto;
+}
+
+@media (max-width: 991px){
+.video-leftbar {
+    width: 100%;
+}
+.form-outer {
+    width: 100%;
+}
+.top-logos__box img{
+	width: 170px;
+}
+}
+@media (max-width: 768px){
+.media-rightbar li{
+	min-height: auto;
+}
+.steps-row{
+	/* flex-direction: column; */
+	flex-wrap: wrap;
+}
+.steps-row::before{
+	display: none;
+}
+.step-box_row{
+	flex-direction: column;
+	margin: 0;
+}
+.step-text {
+    margin: 10px 0 0;
+}
+.step-text p {
+    font-size: 16px;
+    line-height: 20px;
+}
+.step-text p br{
+	display: none;
+}
+.getstarted-button{
+	font-size: 16px;
+}
+.getstarted-button i{
+	margin-left: 4px;
+}
+
+.earning-leftbar h2{
+	margin: 0 0 30px;
+}
+
+.get-start-button{
+    width: 100%;
+}
+
+.unrestricted-outer {
+    padding: 0 0 25px;
+}
+.unrestricted-rightbar{
+	text-align: center;
+}
+.unrestricted-rightbar h2 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.account-verfication {
+    padding: 14px 40px;
+ }
+.because-outer p {
+    margin: 5px 0 5px;
+}
+
+.media-leftbar {
+    padding: 0;
+}
+.made-fortune .join-register-button a {
+    width: 100%;
+}
+.top-logos__box {
+    margin: 10px 0 0;
+}
+
+.media-rightbar{
+	padding: 0 20px;
+}
+.marquee--inner{
+	width: auto;
+	animation: none;
+}
+.media-rightbar li {
+    width: 100%;
+    margin: 0 0 20px;
+}
+.media-rightbar li:nth-child(2n){
+	margin: 0 0 20px;
+	right: 0;
+}
+.media-rightbar li:nth-child(4),
+.media-rightbar li:nth-child(5),
+.media-rightbar li:nth-child(6){
+	display: none;
+}
+
+@media (max-width: 480px){
+.media-rightbar li {
+    min-height: 358px;
+}
+.hidden-xs{
+	display: none;
+}
+}
+@media (max-width: 377px){
+.header-row{
+	flex-direction: column;
+}
+.header-center{
+	margin: 0;
+}
+.banner-outer {
+    padding: 170px 0 40px;
+}
+.hideD{
+	display: block;
+}
+}
+@media (min-width: 378px){
+.hideD{
+	display: none;
+}
+}
